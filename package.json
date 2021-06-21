@@ -4,9 +4,15 @@
   "private": true,
   "scripts": {
     "start": "astro dev",
-    "build": "astro build"
+    "build": "astro build",
+    "lint": "eslint src"
   },
   "devDependencies": {
-    "astro": "^0.13.10"
+    "@astronomer/eslint-config-astro": "^1.0.3",
+    "astro": "^0.13.10",
+    "eslint": "^7.29.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.2"
   }
 }
